@@ -1,0 +1,592 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 1393 567.5 333" preserveAspectRatio="xMidYMid meet"><defs xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变_24-10);
+      }
+
+      .cls-2 {
+        fill: url(#_未命名的渐变_24-5);
+      }
+
+      .cls-3 {
+        fill: url(#_未命名的渐变_12);
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: url(#_未命名的渐变_24-13);
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-11 {
+        fill: url(#_未命名的渐变_24-14);
+      }
+
+      .cls-12 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-14 {
+        fill: url(#_未命名的渐变_40-6);
+      }
+
+      .cls-15 {
+        fill: url(#_未命名的渐变_40-15);
+      }
+
+      .cls-7 {
+        font-size: 11.86px;
+      }
+
+      .cls-7, .cls-16 {
+        font-family: NotoSansSC-Medium, 'Noto Sans SC';
+        font-variation-settings: 'wght' 500;
+      }
+
+      .cls-17 {
+        fill: url(#_未命名的渐变_40-18);
+      }
+
+      .cls-18 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-19, .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        fill: url(#_未命名的渐变_40-8);
+      }
+
+      .cls-22 {
+        fill: url(#_未命名的渐变_40-17);
+      }
+
+      .cls-23 {
+        fill: url(#_未命名的渐变_40-26);
+      }
+
+      .cls-24 {
+        fill: url(#_未命名的渐变_40-20);
+      }
+
+      .cls-25 {
+        letter-spacing: 0em;
+      }
+
+      .cls-26 {
+        fill: url(#_未命名的渐变_12-6);
+      }
+
+      .cls-27 {
+        letter-spacing: 0em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.51em;
+      }
+
+      .cls-29 {
+        fill: url(#_未命名的渐变_40-11);
+      }
+
+      .cls-30 {
+        letter-spacing: -.46em;
+      }
+
+      .cls-8 {
+        font-size: 12px;
+        letter-spacing: 0em;
+      }
+
+      .cls-8, .cls-31, .cls-32, .cls-10 {
+        font-family: NotoSansSC-Black, 'Noto Sans SC';
+        font-variation-settings: 'wght' 900;
+      }
+
+      .cls-33, .cls-20, .cls-34, .cls-35, .cls-36 {
+        font-family: Bahnschrift-SemiBold, Bahnschrift;
+        font-variation-settings: 'wght' 600, 'wdth' 100;
+      }
+
+      .cls-37 {
+        letter-spacing: 0em;
+      }
+
+      .cls-38 {
+        fill: url(#_未命名的渐变_40-4);
+      }
+
+      .cls-39, .cls-31, .cls-32 {
+        fill: #fe3d8c;
+      }
+
+      .cls-40 {
+        letter-spacing: 0em;
+      }
+
+      .cls-41 {
+        fill: url(#_未命名的渐变_24-3);
+      }
+
+      .cls-42 {
+        fill: url(#_未命名的渐变_12-2);
+      }
+
+      .cls-43 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-44 {
+        fill: url(#_未命名的渐变_47-2);
+      }
+
+      .cls-45 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-46 {
+        fill: url(#_未命名的渐变_40-25);
+      }
+
+      .cls-47 {
+        letter-spacing: 0em;
+      }
+
+      .cls-48 {
+        fill: url(#_未命名的渐变_47-5);
+      }
+
+      .cls-49 {
+        fill: url(#_未命名的渐变_24-11);
+      }
+
+      .cls-50 {
+        fill: url(#_未命名的渐变_40-2);
+      }
+
+      .cls-51 {
+        fill: url(#_未命名的渐变_24-2);
+      }
+
+      .cls-52 {
+        letter-spacing: -.51em;
+      }
+
+      .cls-53 {
+        letter-spacing: .01em;
+      }
+
+      .cls-54 {
+        fill: #e6e6e6;
+      }
+
+      .cls-55 {
+        fill: url(#_未命名的渐变_40-12);
+      }
+
+      .cls-56 {
+        fill: url(#_未命名的渐变_44);
+      }
+
+      .cls-57 {
+        letter-spacing: 0em;
+      }
+
+      .cls-58 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-59 {
+        fill: url(#_未命名的渐变_24-12);
+      }
+
+      .cls-60 {
+        opacity: .4;
+      }
+
+      .cls-61 {
+        fill: url(#_未命名的渐变_47-4);
+      }
+
+      .cls-62 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-63, .cls-36 {
+        font-size: 6.58px;
+      }
+
+      .cls-64 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-65 {
+        fill: url(#_未命名的渐变_24-4);
+      }
+
+      .cls-66 {
+        fill: url(#_未命名的渐变_47-6);
+      }
+
+      .cls-67 {
+        letter-spacing: 0em;
+      }
+
+      .cls-68 {
+        fill: url(#_未命名的渐变_24);
+      }
+
+      .cls-69 {
+        letter-spacing: .01em;
+      }
+
+      .cls-31 {
+        font-size: 26.99px;
+        letter-spacing: 0em;
+      }
+
+      .cls-70 {
+        fill: url(#_未命名的渐变_40-7);
+      }
+
+      .cls-71, .cls-34 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-72 {
+        fill: url(#_未命名的渐变_24-15);
+      }
+
+      .cls-73 {
+        opacity: .66;
+      }
+
+      .cls-74, .cls-9 {
+        font-family: NotoSansSC-Bold, 'Noto Sans SC';
+        font-variation-settings: 'wght' 700;
+      }
+
+      .cls-75 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-76 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-77 {
+        fill: url(#_未命名的渐变_47-3);
+      }
+
+      .cls-78 {
+        fill: url(#_未命名的渐变_36);
+      }
+
+      .cls-79 {
+        letter-spacing: 0em;
+      }
+
+      .cls-80 {
+        fill: url(#_未命名的渐变_40);
+      }
+
+      .cls-9 {
+        font-size: 9.84px;
+      }
+
+      .cls-32 {
+        font-size: 18.09px;
+        letter-spacing: 0em;
+      }
+
+      .cls-81 {
+        fill: url(#_未命名的渐变_40-5);
+      }
+
+      .cls-82 {
+        fill: url(#_未命名的渐变_47);
+      }
+
+      .cls-83 {
+        letter-spacing: -.43em;
+      }
+
+      .cls-84 {
+        fill: url(#_未命名的渐变_24-9);
+      }
+
+      .cls-85 {
+        fill: url(#_未命名的渐变_24-8);
+      }
+
+      .cls-86 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-87 {
+        letter-spacing: -.46em;
+      }
+
+      .cls-88 {
+        fill: url(#_未命名的渐变_40-10);
+      }
+
+      .cls-89 {
+        fill: url(#_未命名的渐变_12-5);
+      }
+
+      .cls-90 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-91 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-92 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-93 {
+        fill: url(#_未命名的渐变_40-16);
+      }
+
+      .cls-94 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-95 {
+        fill: url(#_未命名的渐变_40-19);
+      }
+
+      .cls-96 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-97 {
+        letter-spacing: .01em;
+      }
+
+      .cls-98 {
+        fill: url(#_未命名的渐变_6);
+      }
+
+      .cls-99, .cls-100 {
+        opacity: .36;
+      }
+
+      .cls-101 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-102 {
+        fill: url(#_未命名的渐变_24-6);
+      }
+
+      .cls-103 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        font-size: 26.16px;
+        letter-spacing: 0em;
+      }
+
+      .cls-104 {
+        fill: url(#_未命名的渐变_12-3);
+      }
+
+      .cls-105 {
+        fill: url(#_未命名的渐变_40-14);
+      }
+
+      .cls-16 {
+        fill: #3852eb;
+        font-size: 8.77px;
+      }
+
+      .cls-106 {
+        fill: url(#_未命名的渐变_12-4);
+      }
+
+      .cls-107 {
+        fill: url(#_未命名的渐变_12-7);
+      }
+
+      .cls-108 {
+        fill: url(#_未命名的渐变_40-13);
+      }
+
+      .cls-109 {
+        fill: url(#_未命名的渐变_24-7);
+      }
+
+      .cls-110 {
+        fill: url(#_未命名的渐变_40-21);
+      }
+
+      .cls-111 {
+        letter-spacing: 0em;
+      }
+
+      .cls-112 {
+        fill: url(#_未命名的渐变_40-24);
+      }
+
+      .cls-113 {
+        letter-spacing: .04em;
+      }
+
+      .cls-114 {
+        fill: url(#_未命名的渐变_40-3);
+      }
+
+      .cls-115 {
+        fill: url(#_未命名的渐变_40-22);
+      }
+
+      .cls-116 {
+        fill: url(#_未命名的渐变_75);
+      }
+
+      .cls-100 {
+        fill: #e64082;
+      }
+
+      .cls-117 {
+        letter-spacing: -.51em;
+      }
+
+      .cls-118 {
+        fill: url(#_未命名的渐变_40-23);
+      }
+
+      .cls-119 {
+        letter-spacing: -.44em;
+      }
+
+      .cls-120 {
+        fill: url(#_未命名的渐变_40-9);
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_6" data-name="未命名的渐变 6" x1="-188.41" y1="108.99" x2="756.14" y2="1745.01" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fed6eb"/>
+      <stop offset="1" stop-color="#fe4592"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_75" data-name="未命名的渐变 75" x1="-187.96" y1="1744.45" x2="755.68" y2="110.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_12" data-name="未命名的渐变 12" x1="41.42" y1="5.73" x2="41.42" y2="161.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_12-2" data-name="未命名的渐变 12" x1="129.49" y1="5.64" x2="129.49" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_12"/>
+    <linearGradient id="_未命名的渐变_12-3" data-name="未命名的渐变 12" x1="217.57" y1="4.31" x2="217.57" y2="163.26" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_12"/>
+    <linearGradient id="_未命名的渐变_12-4" data-name="未命名的渐变 12" x1="300.32" x2="300.32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_12"/>
+    <linearGradient id="_未命名的渐变_12-5" data-name="未命名的渐变 12" x1="378.11" y1="4.31" x2="378.11" y2="163.26" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_12"/>
+    <linearGradient id="_未命名的渐变_12-6" data-name="未命名的渐变 12" x1="458.2" x2="458.2" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_12"/>
+    <linearGradient id="_未命名的渐变_12-7" data-name="未命名的渐变 12" x1="532.7" x2="532.7" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_12"/>
+    <linearGradient id="_未命名的渐变_44" data-name="未命名的渐变 44" x1=".37" y1="134" x2="421.37" y2="134" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".03" stop-color="#fed8e8"/>
+      <stop offset=".06" stop-color="#feb4d2"/>
+      <stop offset=".1" stop-color="#fe93bf"/>
+      <stop offset=".14" stop-color="#fe78af"/>
+      <stop offset=".19" stop-color="#fe62a2"/>
+      <stop offset=".24" stop-color="#fe5198"/>
+      <stop offset=".31" stop-color="#fe4591"/>
+      <stop offset=".4" stop-color="#fe3e8d"/>
+      <stop offset=".66" stop-color="#fe3d8c"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_24" data-name="未命名的渐变 24" x1="73.34" y1="60.2" x2="73.34" y2="90.82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fe3d8c"/>
+      <stop offset="1" stop-color="#feb8da"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_24-2" data-name="未命名的渐变 24" x1="90.62" y1="60.19" x2="90.62" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-3" data-name="未命名的渐变 24" x1="107.89" y1="59.93" x2="107.89" y2="91.1" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-4" data-name="未命名的渐变 24" x1="124.12" x2="124.12" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-5" data-name="未命名的渐变 24" x1="139.38" y1="59.93" x2="139.38" y2="91.1" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-6" data-name="未命名的渐变 24" x1="155.09" x2="155.09" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-7" data-name="未命名的渐变 24" x1="169.7" x2="169.7" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-8" data-name="未命名的渐变 24" x1="192.21" x2="192.21" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-9" data-name="未命名的渐变 24" x1="207.45" x2="207.45" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-10" data-name="未命名的渐变 24" x1="224.53" x2="224.53" y2="91.1" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-11" data-name="未命名的渐变 24" x1="241.84" x2="241.84" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-12" data-name="未命名的渐变 24" x1="259.38" y1="59.93" x2="259.38" y2="91.1" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-13" data-name="未命名的渐变 24" x1="276.49" x2="276.49" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-14" data-name="未命名的渐变 24" x1="293.06" x2="293.06" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_24-15" data-name="未命名的渐变 24" x1="308.89" x2="308.89" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_24"/>
+    <linearGradient id="_未命名的渐变_40" data-name="未命名的渐变 40" x1="74.27" y1="154.17" x2="74.27" y2="96.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa4c9"/>
+      <stop offset=".07" stop-color="#ffb5d3"/>
+      <stop offset=".2" stop-color="#ffd0e3"/>
+      <stop offset=".34" stop-color="#ffe5ef"/>
+      <stop offset=".51" stop-color="#fff3f8"/>
+      <stop offset=".7" stop-color="#fffcfd"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_40-2" data-name="未命名的渐变 40" x1="98.6" x2="98.6" y2="143.37" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-3" data-name="未命名的渐变 40" x1="119.39" x2="119.39" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-4" data-name="未命名的渐变 40" x1="156.85" y1="154.76" x2="156.85" y2="96.16" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-5" data-name="未命名的渐变 40" x1="185.9" x2="185.9" y2="143.37" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-6" data-name="未命名的渐变 40" x1="214.94" y1="154.76" x2="214.94" y2="96.16" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-7" data-name="未命名的渐变 40" x1="250.75" y1="122.29" x2="250.75" y2="99.81" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-8" data-name="未命名的渐变 40" x1="275.06" y1="122.15" x2="275.06" y2="98.63" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-9" data-name="未命名的渐变 40" x1="299.92" y1="122.32" x2="299.92" y2="98.8" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-10" data-name="未命名的渐变 40" x1="324.57" y1="122.27" x2="324.57" y2="98.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-11" data-name="未命名的渐变 40" x1="349.2" y1="122.29" x2="349.2" y2="98.83" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-12" data-name="未命名的渐变 40" x1="374.1" y1="122.22" x2="374.1" y2="98.73" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_36" data-name="未命名的渐变 36" x1="276.87" y1="137" x2="276.87" y2="156" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#3e4efe"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_40-13" data-name="未命名的渐变 40" x1="243.5" y1="134.06" x2="243.5" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-14" data-name="未命名的渐变 40" x1="251.3" y1="133.98" x2="251.3" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-15" data-name="未命名的渐变 40" x1="258.69" y1="133.98" x2="258.69" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-16" data-name="未命名的渐变 40" x1="266.08" y1="133.98" x2="266.08" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-17" data-name="未命名的渐变 40" x1="272.62" y1="133.98" x2="272.62" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-18" data-name="未命名的渐变 40" x1="279.53" y1="133.98" x2="279.53" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-19" data-name="未命名的渐变 40" x1="290.01" y1="134.06" x2="290.01" y2="125.37" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-20" data-name="未命名的渐变 40" x1="297.4" y1="133.98" x2="297.4" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-21" data-name="未命名的渐变 40" x1="304.77" y1="133.98" x2="304.77" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-22" data-name="未命名的渐变 40" x1="312.31" y1="133.98" x2="312.31" y2="125.45" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-23" data-name="未命名的渐变 40" x1="319.44" y1="133.98" x2="319.44" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-24" data-name="未命名的渐变 40" x1="324.67" y1="133.98" x2="324.67" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-25" data-name="未命名的渐变 40" x1="330.11" y1="133.98" x2="330.11" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_40-26" data-name="未命名的渐变 40" x1="338.58" y1="133.98" x2="338.58" y2="125.46" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_40"/>
+    <linearGradient id="_未命名的渐变_47" data-name="未命名的渐变 47" x1="52.74" y1="185" x2="52.74" y2="201" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#acb3ff"/>
+      <stop offset=".28" stop-color="#838dfe"/>
+      <stop offset=".59" stop-color="#5d6bfe"/>
+      <stop offset=".84" stop-color="#4655fe"/>
+      <stop offset="1" stop-color="#3e4efe"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_47-2" data-name="未命名的渐变 47" y1="419.09" y2="435.09" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_47"/>
+    <linearGradient id="_未命名的渐变_47-3" data-name="未命名的渐变 47" y1="653.19" y2="669.19" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_47"/>
+    <linearGradient id="_未命名的渐变_47-4" data-name="未命名的渐变 47" y1="887.28" y2="903.28" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_47"/>
+    <linearGradient id="_未命名的渐变_47-5" data-name="未命名的渐变 47" y1="1121.38" y2="1137.38" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_47"/>
+    <linearGradient id="_未命名的渐变_47-6" data-name="未命名的渐变 47" y1="1355.47" y2="1371.47" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_未命名的渐变_47"/>
+    
+    
+  </defs><g class="cls-99" xmlns="http://www.w3.org/2000/svg">
+    <polygon class="cls-6" points="62.69 1646.9 78.19 1655.4 96.89 1641 82.69 1632.7 62.69 1646.9"/>
+    <polygon class="cls-6" points="490.37 1424.03 490.37 1403.75 490.37 1403.65 464.37 1416.8 464.37 1393.3 463.82 1393.58 463.37 1393.53 463.37 1393.3 462.92 1393.48 458.69 1393 458.59 1393.05 458.09 1393 359.42 1442.27 359.37 1428.13 359.27 1428.17 359.27 1427.5 359.49 1427.4 335.69 1424.9 335.67 1424.91 335.56 1424.9 328.18 1427.84 327.37 1427.74 327.37 1428 327.37 1449.8 308.33 1446.1 308.32 1446.1 308.29 1446.1 234.37 1482.09 234.37 1466.43 233.37 1466.27 233.37 1466.07 232.98 1466.21 211.37 1462.67 211.47 1436.44 211.37 1436.42 211.37 1436.24 211 1436.36 188.37 1432.66 188.37 1406.38 188.59 1406.3 188.37 1406.26 188.37 1405.97 187.8 1406.17 165.99 1402.6 158.02 1404.89 157.37 1404.77 157.37 1405.08 157.29 1405.1 157.37 1405.11 157.37 1430.77 157.37 1431.34 157.37 1457.34 179.37 1461.35 179.37 1461.44 179.37 1484.51 160.59 1493.9 160.59 1493.9 153.37 1497.49 153.47 1475.2 153.36 1475.18 153.37 1474.37 152.68 1474.61 130.59 1471 130.37 1471.07 130.47 1445.1 130.36 1445.08 130.37 1444.71 130.69 1444.6 130.37 1444.55 130.37 1444.44 130.15 1444.51 107.99 1440.9 100.02 1443.19 99.37 1443.07 99.37 1443.38 99.29 1443.4 99.37 1443.41 99.37 1443.9 99.37 1469.07 99.37 1469.6 99.37 1469.64 99.37 1495.6 99.37 1495.64 121.37 1499.65 121.37 1499.69 121.37 1513.44 112.19 1518 112.78 1518.09 112.73 1518.12 111.97 1518 112.98 1563.59 101 1562.01 100.29 1540 100.2 1539.99 100.19 1539.8 81.09 1537.4 73.79 1539.8 73.8 1539.84 73.3 1540 74.12 1561.8 74.73 1583.6 94.26 1586.4 95.07 1608.3 113.8 1611 113.37 1611 114.15 1616.04 114.4 1627.06 96.89 1641 78.29 1655.4 60.19 1669.5 86.99 1683.5 102.69 1668.2 120.99 1677.1 134.39 1661 118.69 1652.5 125.86 1645.54 295.37 1676.68 295.37 1676.7 295.39 1676.69 295.47 1676.7 295.47 1676.66 295.69 1676.7 328.22 1651.95 325.29 1661.9 319.09 1682.3 299.59 1681.1 291.39 1701.7 312.6 1703.19 312.59 1703.2 312.69 1703.21 307.09 1723.2 339.29 1725.8 339.32 1725.55 339.91 1725.6 342.07 1705.34 362.89 1706.8 362.9 1706.57 363.29 1706.6 363.98 1685.1 344.67 1683.9 349.32 1652.4 349.7 1649.68 354.37 1650.27 354.37 1650.08 355.37 1650.2 355.37 1650.2 376.37 1652.57 376.37 1652.86 376.37 1653.49 384.37 1650.97 384.37 1650.34 384.37 1629.51 397.16 1630.74 397.21 1630.72 397.37 1630.74 397.37 1631.49 405.37 1628.97 405.37 1615.89 426.37 1599.87 426.37 1599.89 426.37 1599.89 430.53 1596.72 432.98 1594.85 450.19 1600.8 469.82 1607.64 457.8 1622.44 457.97 1622.5 457.89 1622.6 479.59 1630.7 490.59 1614.3 507.09 1620 517.69 1601.5 517.44 1601.43 517.47 1601.38 502.02 1596.86 509.49 1585.8 509.27 1585.74 509.29 1585.72 492.22 1581.23 483.34 1591.71 464.38 1586.02 450.26 1581.64 454.61 1578.33 457.57 1576.3 456.09 1505.01 518.37 1466.38 518.37 1466.2 518.37 1449.31 518.37 1449.06 518.37 1447.4 518.37 1447.27 518.37 1430.7 518.37 1430.69 518.37 1430.41 518.37 1410.24 518.37 1409.9 490.37 1424.03"/>
+  </g></svg>
