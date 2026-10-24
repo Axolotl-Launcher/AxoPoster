@@ -191,5 +191,6 @@
 .poster-links dt { font-size: 9px; line-height: 1.5; font-weight: 700; text-align: right; }
 .poster-links dd { display: flex; min-width: 0; align-items: flex-start; gap: 4px; margin: 0; }
 .poster-link-icon { display: block; width: 14.23px; height: 14.23px; flex: 0 0 14.23px; object-fit: contain; }
-.poster-link-value { display: block; flex: 1; min-width: 0; min-height: 14.23px; padding: 2px 5px; border-radius: 9px; background: #fff url("/template/link-watermark.svg") right 4px center / 27px 9px no-repeat; color: #35353b; font-family: var(--poster-din); font-size: 6.5px; line-height: 1.5; font-weight: 600; white-space: pre-wrap; }
+/* Balance the DIN font's high visual baseline within the capsule. */
+.poster-link-value { display: flex; align-items: center; flex: 1; min-width: 0; min-height: 14.23px; padding: 3px 5px 1px; border-radius: 9px; background: #fff url("/template/link-watermark.svg") right 4px center / 27px 9px no-repeat; color: #35353b; font-family: var(--poster-din); font-size: 6.5px; line-height: 1.5; font-weight: 600; white-space: pre-wrap; }
 .poster-disclaimer { margin: 0; white-space: pre-wrap; font-size: 11.5px; line-height: 1.4; font-weight: 500; }
