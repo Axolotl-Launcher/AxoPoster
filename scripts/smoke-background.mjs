@@ -19,7 +19,8 @@ const dots = Array.from(svg.getElementsByTagName("circle")).map((circle) => ({
 const row = (y) => dots.filter((dot) => dot.y === y).map(({ x, r }) => ({ x, r }));
 assert.deepEqual(row(5), row(1157));
 assert.deepEqual(row(-4.6), row(1147.4));
-assert.ok(dots.every(({ r }) => r >= 2.2 && r <= 6.6));
+assert.ok(dots.every(({ r }) => r >= 0 && r <= 6.6));
+assert.ok(dots.some(({ r }) => r === 0), "Sparse bands must allow dots to disappear");
 
 const { data, info } = await sharp(Buffer.from(tile)).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
 const coverages = [];
@@ -35,8 +36,8 @@ for (const x of [0, info.width - 22]) {
     coverages.push(covered / (96 * 22));
   }
 }
-assert.ok(Math.min(...coverages) > 0.05, "Every 96px margin band must retain visible dots");
-const checks = ["Tile repeats seamlessly; all radii stay visible; both margins retain dot coverage"];
+assert.ok(Math.max(...coverages) > 0.05, "The tile must retain clearly visible dot bands");
+const checks = ["Tile repeats seamlessly; sparse bands taper to zero-sized dots"];
 const browser = await chromium.launch({
   headless: true,
   ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}),
@@ -55,6 +56,7 @@ try {
     return {
       height: node.scrollHeight, size: style.backgroundSize,
       repeat: style.backgroundRepeat, opacity: style.opacity, mask: style.maskImage,
+      webkitMask: style.webkitMaskImage,
     };
   });
   const before = await measure();
@@ -75,12 +77,15 @@ try {
   await page.evaluate(() => document.fonts.ready);
   const after = await measure();
   assert.ok(after.height > before.height * 3);
-  for (const key of ["size", "repeat", "opacity", "mask"]) assert.equal(after[key], before[key]);
+  for (const key of ["size", "repeat", "opacity", "mask", "webkitMask"]) {
+    assert.equal(after[key], before[key]);
+  }
   assert.equal(after.size, "568px 1152px");
   assert.equal(after.repeat, "repeat-y");
-  assert.equal(after.mask, "none");
-  assert.equal(after.opacity, "0.32");
-  checks.push("30-section poster keeps the same tile size and opacity, without a height-dependent fade");
+  assert.notEqual(after.mask, "none");
+  assert.equal(after.mask, after.webkitMask);
+  assert.equal(after.opacity, "0.24");
+  checks.push("30-section poster keeps the tile size and fades dots at the top and bottom");
 
   await page.getByRole("combobox", { name: "导出倍率", exact: true }).click();
   await page.getByRole("option", { name: "1× · 原始", exact: true }).click();
@@ -103,12 +108,45 @@ try {
     sample.style.cssText = "position:absolute;top:0;left:0;width:568px;height:2304px;z-index:100;";
     sample.append(document.querySelector(".poster-halftone").cloneNode(true));
     document.body.append(sample);
+    const plain = document.createElement("div");
+    plain.id = "background-smoke-plain";
+    plain.className = "poster";
+    plain.style.cssText = "position:absolute;top:0;left:0;width:568px;height:2304px;z-index:99;";
+    document.body.append(plain);
   });
   await page.locator("#background-smoke").screenshot({ path: "artifacts/background-pattern.png" });
-  await page.locator("#background-smoke").evaluate((node) => node.remove());
+  await page.locator("#background-smoke .poster-halftone").evaluate((node) => node.remove());
+  await page.locator("#background-smoke-plain").screenshot({ path: "artifacts/background-plain.png" });
+  const [patternPixels, plainPixels] = await Promise.all([
+    sharp("artifacts/background-pattern.png").raw().toBuffer({ resolveWithObject: true }),
+    sharp("artifacts/background-plain.png").raw().toBuffer({ resolveWithObject: true }),
+  ]);
+  const bandDifference = (top, bottom) => {
+    let difference = 0;
+    let samples = 0;
+    for (let y = top; y < bottom; y++) {
+      for (let x = 16; x < 552; x++) {
+        const offset = (y * patternPixels.info.width + x) * patternPixels.info.channels;
+        for (let channel = 0; channel < 3; channel++) {
+          difference += Math.abs(patternPixels.data[offset + channel] - plainPixels.data[offset + channel]);
+          samples++;
+        }
+      }
+    }
+    return difference / samples;
+  };
+  const edgeStrength = Math.max(bandDifference(0, 144), bandDifference(2160, 2304));
+  const middleStrength = bandDifference(230, 1704);
+  assert.ok(middleStrength > 0, "The middle band must retain dots");
+  assert.ok(edgeStrength < middleStrength * 0.6, "Top and bottom dots must fade against the middle");
+  await page.locator("#background-smoke, #background-smoke-plain").evaluateAll((nodes) =>
+    nodes.forEach((node) => node.remove()),
+  );
+  checks.push("Rendered pattern is visibly softer at the top and bottom than in the middle");
   assert.deepEqual(errors, []);
   await writeFile("artifacts/background-smoke.json", JSON.stringify({
-    url, checks, minimumMarginCoverage: Math.min(...coverages), before, after, errors,
+    url, checks, maximumMarginCoverage: Math.max(...coverages),
+    edgeStrength, middleStrength, before, after, errors,
   }, null, 2));
   console.log(checks.join("\n"));
 } finally {

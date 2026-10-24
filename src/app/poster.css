@@ -64,7 +64,13 @@
   background-image: url("/template/halftone.svg");
   background-size: 568px 1152px;
   background-repeat: repeat-y;
-  opacity: .32;
+  opacity: .24;
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 10%, #000 74%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 10%, #000 74%, transparent 100%);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
 }
 
 .poster *,

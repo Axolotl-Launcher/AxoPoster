@@ -1,7 +1,7 @@
 # AxoPoster
 
-Current scope: retain visible halftone coverage on long posters without changing
-the editor layout, poster content or document schema.
+Current scope: match the source halftone's variable dot sizes and softly fade
+the pattern at the poster top and bottom, including long posters.
 
 ## Direction
 
@@ -29,9 +29,9 @@ Source: the user-provided `AXL1.10.0.svg`, viewBox `0 0 567.5 1854`.
 - Separate the source's pink gradient, halftone and footer silhouette. Recreate
   the halftone as a seamless 568 x 1152px SVG tile with a fixed 19.2px staggered
   grid and 9.6px row spacing. Diagonal density bands cycle every 576px; interpolate
-  dot area between 2.2px and 6.6px radii so the troughs never disappear.
-  Repeat vertically at a fixed .32 opacity without a full-height fade mask.
-  Only the pink color gradient adapts to the poster height.
+  dot area from zero to a 6.6px radius so sparse bands can disappear. Repeat
+  vertically at .24 opacity and apply a height-relative fade at the top and
+  bottom. Only the pink color gradient adapts to the poster height.
 - Anchor the original 568 x 333px footer silhouette to the content/footer
   junction, not to a fraction of the total poster height.
 - Original outlined brand lockup; editable version and release ribbon.
@@ -98,11 +98,10 @@ with 1 and 12 update sections, custom disclaimer height growth and a nonblank
 568 x 1814px PNG. Evidence is `artifacts/layout-smoke.json`,
 `artifacts/layout-export.png` and `artifacts/layout-footer.png`.
 
-The focused long-background smoke in `scripts/smoke-background.mjs` verified
-seamless tile boundary rows, visible dots in every 96px margin band, constant
-opacity/tile geometry and a nonblank 568 x 7476px export with 30 update sections.
-Evidence is `artifacts/background-smoke.json`, `artifacts/background-pattern.png`
-and `artifacts/background-long-export.png`.
+The focused long-background smoke in `scripts/smoke-background.mjs` verifies
+seamless tile boundary rows, disappearing low-density dots, softer rendered
+pattern at both poster edges, unchanged tile geometry and a nonblank 568 x 7476px
+export with 30 update sections. Evidence is in `artifacts/`.
 
 Font-specific smoke coverage: five font results, missing system font, suspected
 fallback glyphs, file failure/retry, Barlow fallback, report download, probe-font

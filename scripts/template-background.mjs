@@ -7,7 +7,6 @@ export function createHalftoneTile() {
   const rows = 120;
   const height = rowHeight * rows;
   const bandHeight = height / 2;
-  const minRadius = 2.2;
   const maxRadius = 6.6;
   const circles = [];
   const round = (value) => Number(value.toFixed(3));
@@ -17,9 +16,8 @@ export function createHalftoneTile() {
     for (let column = -1; column <= Math.ceil(width / pitch); column++) {
       const cx = 5 + column * pitch + (row & 1) * rowHeight;
       const phase = (cy + cx / Math.sqrt(3) - 200) / bandHeight;
-      const density = (1 + Math.cos(phase * Math.PI * 2)) / 2;
-      // Interpolate dot area, not radius, so sparse bands remain visible.
-      const radius = Math.sqrt(minRadius ** 2 + (maxRadius ** 2 - minRadius ** 2) * density);
+      const density = Math.max(0, (1 + Math.cos(phase * Math.PI * 2)) / 2);
+      const radius = density < 0.01 ? 0 : maxRadius * Math.sqrt(density);
       circles.push(`<circle cx="${round(cx)}" cy="${round(cy)}" r="${round(radius)}"/>`);
     }
   }
