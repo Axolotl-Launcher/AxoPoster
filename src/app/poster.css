@@ -93,7 +93,7 @@
   min-height: 66px;
   width: 421px;
   flex: 0 0 421px;
-  padding: 0 32px 5px 60px;
+  padding: 8px 32px 8px 60px;
   color: #fff;
 }
 .poster-banner::before {
@@ -112,7 +112,7 @@
   font-size: 80px;
   font-weight: 700;
   font-variation-settings: "wght" 700, "wdth" 100;
-  line-height: .85;
+  line-height: 1;
   color: #fff8fc;
   overflow-wrap: anywhere;
 }
